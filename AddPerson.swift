@@ -71,6 +71,7 @@ struct AddPerson: View {
             }
         }
         
+        
         //        VStack {
         //        PhotosPicker(selection: $selectImage, matching: .images) {
         //
