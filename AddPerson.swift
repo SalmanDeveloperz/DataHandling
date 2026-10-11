@@ -14,7 +14,7 @@ struct AddPerson: View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
     
-    @State private var name = ""        // @State stores local View state
+    @State private var name = ""        // @State stores local View states
     @State private var fatherName =  ""
     @State private var address = ""
     @State private var job = ""
